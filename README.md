@@ -52,3 +52,9 @@ sudo yum install wget
 
 ![image](https://github.com/user-attachments/assets/2022042b-0b92-45e8-a1f0-f8a0b172f723)
 ![image](https://github.com/user-attachments/assets/f63284ad-7ec5-4b88-982b-623388effbe3)
+
+
+![image](https://github.com/user-attachments/assets/fed6e754-011f-499b-8df2-8d9a6dfb66c3)
+![image](https://github.com/user-attachments/assets/375b6bc4-6d93-49bc-b02a-832b90ecfe5e)
+
+
