@@ -25,26 +25,48 @@ sudo systemctl enable docker --now
 
 ![image](https://github.com/user-attachments/assets/5ccdadc9-20da-49d3-87a2-eb9b01f8a46b)
 
+ Определяем последнюю версию docker с помощью api github:
+
+ COMVER=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep 'tag_name' | cut -d\" -f4)
 
 ![image](https://github.com/user-attachments/assets/323406a0-3f01-4205-81e8-b3c9d18f2bce)
 
+Скачиваем скрипт docker-compose последней версии:
+
+sudo curl -L "https://github.com/docker/compose/releases/download/$COMVER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose
 
 ![image](https://github.com/user-attachments/assets/a6b8e225-7d2b-42cf-8908-f8a7abde9352)
 
+Предоставляем правва файл docker-compose:
+
+sudo chmod +x /usr/bin/docker-compose
 
 ![image](https://github.com/user-attachments/assets/79591ce8-d89f-452d-83c9-7918f0a68f1a)
 
+Проверяем версию:
+
+docker-compose --version
 
 ![image](https://github.com/user-attachments/assets/50f4b3b5-44b0-4ca0-818f-903fab2ae4c8)
 
+Скачаем git:
+
+git clone https://github.com/skl256/grafana_stack_for_docker.git
 
 ![image](https://github.com/user-attachments/assets/82fa5cd4-254d-4309-a9f7-74d6d2f5b839)
 
+Переходим в папку:
+
+cd grafana_stack_for_docker
 
 ![image](https://github.com/user-attachments/assets/4f734f26-5ca6-49f2-85c1-1f37633a6c2e)
 
+Создаём полный путь:
+
+sudo mkdir -p /mnt/common_volume/swarm/grafana/config
 
 ![image](https://github.com/user-attachments/assets/26a4e176-51d2-41bc-ad20-73c8f8e0b8a1)
+
 
 
 ![image](https://github.com/user-attachments/assets/ba26e191-3da2-4a30-90ff-794e56980bc8)
