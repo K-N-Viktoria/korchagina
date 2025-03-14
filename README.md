@@ -1,17 +1,27 @@
 # korchagina
-Начинаем работу с установки утилиты wget, через команду 
+
+Начинаем работу с установки утилиты wget:
 
 sudo yum install wget
 
 ![image](https://github.com/user-attachments/assets/3c3d630d-bc97-48bd-b85d-585573da215d)
 
+Скачиваем файл репозитория:
+
+sudo wget -P /etc/yum.repos.d/
 
 ![image](https://github.com/user-attachments/assets/eef00eb9-303e-4ec7-b752-fd6bc7700a2a)
 
+Устанавливаем docker:
+
+sudo yum install docker-ce docker-ce-cli containerd.io
 
 ![image](https://github.com/user-attachments/assets/1c0e3aff-ab1b-412a-8549-7feafca68200)
 ![image](https://github.com/user-attachments/assets/c6f7afbf-a111-46a1-845c-1eb3f9264b82)
 
+Запускаем docker и разрешаем автозапуск:
+
+sudo systemctl enable docker --now
 
 ![image](https://github.com/user-attachments/assets/5ccdadc9-20da-49d3-87a2-eb9b01f8a46b)
 
