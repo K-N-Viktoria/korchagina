@@ -25,7 +25,7 @@
 
 ![image](https://github.com/user-attachments/assets/5ccdadc9-20da-49d3-87a2-eb9b01f8a46b)
 
-Перед этим проверим установлен ли пакет curl 
+Перед этим проверим установлен ли пакет curl:  
 
 `````sudo yum install curl`````
 
@@ -73,6 +73,14 @@
 `````sudo mkdir -p /mnt/common_volume/swarm/grafana/config`````
 
 ![image](https://github.com/user-attachments/assets/26a4e176-51d2-41bc-ad20-73c8f8e0b8a1)
+
+
+Создание структуры каталогов Grafana и компонентов (если нужно):
+
+`````sudo mkdir -p /mnt/common_volume/grafana/{grafana-config,grafana-data,prometheus-data}`````
+
+![2](https://github.com/user-attachments/assets/aee4def5-932e-4b9a-8724-271edda09547)
+
 
 Создаём структуру каталогов:
 
