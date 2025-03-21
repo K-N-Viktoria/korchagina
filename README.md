@@ -8,7 +8,7 @@
 
 Скачиваем файл репозитория:
 
-`````sudo wget -P /etc/yum.repos.d/`````
+`````sudo wget -P /etc/yum.repos.d/https://download.docker.com/linux/centos/docker-ce.repo`````
 
 ![image](https://github.com/user-attachments/assets/eef00eb9-303e-4ec7-b752-fd6bc7700a2a)
 
