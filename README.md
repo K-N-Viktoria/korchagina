@@ -14,8 +14,8 @@
 
 Устанавливаем docker:
 
-`````sudo yum install docker-ce docker-ce-cli containerd.io
-`````
+`````sudo yum install docker-ce docker-ce-cli containerd.io`````
+
 
 ![image](https://github.com/user-attachments/assets/1c0e3aff-ab1b-412a-8549-7feafca68200)
 ![image](https://github.com/user-attachments/assets/c6f7afbf-a111-46a1-845c-1eb3f9264b82)
@@ -129,28 +129,28 @@
 ![image](https://github.com/user-attachments/assets/a0d0faa2-0caa-4529-8673-f38cead83540)
 
 
-Запуск докера в фоновом режиме
+Запуск докера в фоновом режиме:
 
 `````sudo docker compose up -d`````
 
 ![5](https://github.com/user-attachments/assets/df948991-bb5e-461b-aad6-99e4e2d5fc84)
 
 
-Отсановка докера, без удаления контейнерова
+Отсановка докера, без удаления контейнерова:
 
 `````sudo docker compose stop`````
 
 ![6](https://github.com/user-attachments/assets/d0bea8b8-6b7c-4126-a05b-8c880e8d9b37)
 
 
-Удаляет контейнеры
+Удаляет контейнеры:
 
 `````sudo docker compose down`````
 
 ![7](https://github.com/user-attachments/assets/35702b54-250f-4ca3-a7e6-9394ce0c2f6e)
 
 
-Отображает текущее состояние 
+Отображает текущее состояние:
 `````sudo docker compose ps`````
 
 ![image](https://github.com/user-attachments/assets/ac579dd5-ec3f-4fb7-9700-d96002a494a2)
@@ -187,11 +187,11 @@
 ![image](https://github.com/user-attachments/assets/b20064de-dbf9-4213-933e-005460728750)
 
 
-После чего вводим имя для dashboarda и выбираем prometheus
+После чего вводим имя для dashboarda и выбираем prometheus:
 
 ![13](https://github.com/user-attachments/assets/4b2b6443-5660-4b06-80c8-3f71871b6ce1)
 
-И всё готово
+И всё готово:
 
 ![14](https://github.com/user-attachments/assets/4e0a90af-4e27-471c-8119-954aa91babee)
 
