@@ -25,6 +25,13 @@
 
 ![image](https://github.com/user-attachments/assets/5ccdadc9-20da-49d3-87a2-eb9b01f8a46b)
 
+Перед проверим установлен ли пакет curl 
+
+`````sudo yum install curl`````
+
+![1](https://github.com/user-attachments/assets/658f208e-5404-4747-a61a-2188dfdac881)
+
+
  Определяем последнюю версию docker с помощью api github:
 
 ````` COMVER=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep 'tag_name' | cut -d\" -f4)`````
