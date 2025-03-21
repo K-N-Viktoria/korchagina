@@ -1,4 +1,4 @@
-![13](https://github.com/user-attachments/assets/f9b03045-7924-40aa-b521-c188c2327a6d)![13](https://github.com/user-attachments/assets/97b640fb-d3d5-4841-9689-ba15b88b9fed)# korchagina
+# korchagina
 
 Начинаем работу с установки утилиты wget:
 
