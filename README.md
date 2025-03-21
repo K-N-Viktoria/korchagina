@@ -57,6 +57,7 @@
 
 ![image](https://github.com/user-attachments/assets/50f4b3b5-44b0-4ca0-818f-903fab2ae4c8)
 
+
 Скачаем git:
 
 `````git clone https://github.com/skl256/grafana_stack_for_docker.git`````
@@ -128,4 +129,36 @@
 ![image](https://github.com/user-attachments/assets/a0d0faa2-0caa-4529-8673-f38cead83540)
 
 
+Запуск докера в фоновом режиме
+
+`````sudo docker compose up -d`````
+
+![5](https://github.com/user-attachments/assets/df948991-bb5e-461b-aad6-99e4e2d5fc84)
+
+
+Отсановка докера, без удаления контейнерова
+
+`````sudo docker compose stop`````
+
+![6](https://github.com/user-attachments/assets/d0bea8b8-6b7c-4126-a05b-8c880e8d9b37)
+
+
+Удаляет контейнеры
+
+`````sudo docker compose down`````
+
+![7](https://github.com/user-attachments/assets/35702b54-250f-4ca3-a7e6-9394ce0c2f6e)
+
+
+Отображает текущее состояние 
+`````sudo docker compose ps`````
+
+![image](https://github.com/user-attachments/assets/ac579dd5-ec3f-4fb7-9700-d96002a494a2)
+
+
+клонируем репозиторий гитзаба себе в виртуалку:
+
+`````git clone https://github.com/K-N-Viktoria/korchagina`````
+
+![8](https://github.com/user-attachments/assets/9040493f-3695-4182-87df-2d710841c1bb)
 
