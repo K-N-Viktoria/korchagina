@@ -25,7 +25,7 @@
 
 ![image](https://github.com/user-attachments/assets/5ccdadc9-20da-49d3-87a2-eb9b01f8a46b)
 
-Перед проверим установлен ли пакет curl 
+Перед этим проверим установлен ли пакет curl 
 
 `````sudo yum install curl`````
 
