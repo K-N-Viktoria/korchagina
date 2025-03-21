@@ -120,4 +120,11 @@
 ![image](https://github.com/user-attachments/assets/fed6e754-011f-499b-8df2-8d9a6dfb66c3)
 ![3](https://github.com/user-attachments/assets/acff0aa0-8889-444d-8a6d-1cce12b37c18)
 
+Открываем файл prometheus.yaml  в текстовом редакторе vi с правами суперпользователя. И так-же меняем файл как скрине:
+
+`````sudo vi  prometheus.yaml`````
+
+![image](https://github.com/user-attachments/assets/a0d0faa2-0caa-4529-8673-f38cead83540)
+
+
 
