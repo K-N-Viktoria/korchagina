@@ -14,7 +14,8 @@
 
 Устанавливаем docker:
 
-`````sudo yum install docker-ce docker-ce-cli containerd.io`````
+`````sudo yum install docker-ce docker-ce-cli containerd.io
+`````
 
 ![image](https://github.com/user-attachments/assets/1c0e3aff-ab1b-412a-8549-7feafca68200)
 ![image](https://github.com/user-attachments/assets/c6f7afbf-a111-46a1-845c-1eb3f9264b82)
