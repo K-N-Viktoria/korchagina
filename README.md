@@ -1,4 +1,4 @@
-![13](https://github.com/user-attachments/assets/97b640fb-d3d5-4841-9689-ba15b88b9fed)# korchagina
+![13](https://github.com/user-attachments/assets/f9b03045-7924-40aa-b521-c188c2327a6d)![13](https://github.com/user-attachments/assets/97b640fb-d3d5-4841-9689-ba15b88b9fed)# korchagina
 
 Начинаем работу с установки утилиты wget:
 
@@ -182,11 +182,16 @@
 
 ![image](https://github.com/user-attachments/assets/b382d04e-cb8e-4239-b9f3-bcb73aff7751)
 
-Опять переходим на вкладку DASHBOARDS, и выбираем import a DASHBOARD:
+Опять переходим на вкладку DASHBOARDS, и выбираем import a dashboard:
 
 ![image](https://github.com/user-attachments/assets/b20064de-dbf9-4213-933e-005460728750)
 
 
-После чего вводим 
+После чего вводим имя для dashboarda и выбираем prometheus
 
 ![13](https://github.com/user-attachments/assets/4b2b6443-5660-4b06-80c8-3f71871b6ce1)
+
+И всё готово
+
+![14](https://github.com/user-attachments/assets/4e0a90af-4e27-471c-8119-954aa91babee)
+
