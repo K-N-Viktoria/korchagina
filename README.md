@@ -1,4 +1,4 @@
-# korchagina
+![13](https://github.com/user-attachments/assets/97b640fb-d3d5-4841-9689-ba15b88b9fed)# korchagina
 
 Начинаем работу с установки утилиты wget:
 
@@ -162,3 +162,31 @@
 
 ![8](https://github.com/user-attachments/assets/9040493f-3695-4182-87df-2d710841c1bb)
 
+<h1> Grafna </h1>
+
+Запускаем браузер и переходим по localhost:3000 и вводим В логин: admin, В пароль: admin:
+
+![10](https://github.com/user-attachments/assets/8d2211d4-52d6-4ed6-adbe-2674f53229e0)
+
+
+Выбираем DASHBOARDS:
+
+![11](https://github.com/user-attachments/assets/4dd0ff47-c8cf-486e-abfd-e5a659597d19)
+
+Выбираем Prometheus:
+
+![image](https://github.com/user-attachments/assets/ce62bf54-ff02-453e-8552-4c9164dde7c5)
+
+
+В ссылке пишем http://prometheus:9090, в аутентификации выбираем Basic authentication, в логин и пароль так-же вводим admin:
+
+![image](https://github.com/user-attachments/assets/b382d04e-cb8e-4239-b9f3-bcb73aff7751)
+
+Опять переходим на вкладку DASHBOARDS, и выбираем import a DASHBOARD:
+
+![image](https://github.com/user-attachments/assets/b20064de-dbf9-4213-933e-005460728750)
+
+
+После чего вводим 
+
+![13](https://github.com/user-attachments/assets/4b2b6443-5660-4b06-80c8-3f71871b6ce1)
