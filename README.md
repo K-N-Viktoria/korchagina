@@ -178,7 +178,7 @@
 ![image](https://github.com/user-attachments/assets/ce62bf54-ff02-453e-8552-4c9164dde7c5)
 
 
-В ссылке пишем http://prometheus:9090, в аутентификации выбираем Basic authentication, в логин и пароль так-же вводим admin:
+В ссылке пишем `````http://prometheus:9090`````, в аутентификации выбираем Basic authentication, в логин и пароль так-же вводим admin:
 
 ![image](https://github.com/user-attachments/assets/b382d04e-cb8e-4239-b9f3-bcb73aff7751)
 
