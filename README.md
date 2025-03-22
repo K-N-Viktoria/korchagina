@@ -162,7 +162,7 @@
 
 ![8](https://github.com/user-attachments/assets/9040493f-3695-4182-87df-2d710841c1bb)
 
-<h1> Grafna </h1>
+<h1> Grafana </h1>
 
 Запускаем браузер и переходим по localhost:3000 и вводим В логин: admin, В пароль: admin:
 
