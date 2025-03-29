@@ -1,5 +1,9 @@
 # korchagina
 
+АИС (Автоматизированной Информационной Системы)
+![image](https://github.com/user-attachments/assets/2b43bc62-faae-41ad-b1dc-e646c88ebe08)
+
+
 Начинаем работу с установки утилиты wget:
 
 `````sudo yum install wget`````
