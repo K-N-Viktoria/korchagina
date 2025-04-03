@@ -230,7 +230,7 @@
 
 ![Снимок экрана 2025-04-03 204207](https://github.com/user-attachments/assets/f3ed1016-ba32-43dc-b946-9ed756e8d4cd)
 
-В заверешеия, мы сохраняем изменения и переходим в DASHBOARDS, выбираем нашу VictoriaMetrics и указываем в ней light_metric1 и получем результат:
+В заверешении, мы сохраняем изменения и переходим в DASHBOARDS, выбираем нашу VictoriaMetrics и указываем в ней light_metric1 и получем результат:
 
 ![image](https://github.com/user-attachments/assets/03a7f1d9-0f7d-4495-aedb-36298fd6076a)
 
