@@ -199,3 +199,42 @@
 
 ![14](https://github.com/user-attachments/assets/4e0a90af-4e27-471c-8119-954aa91babee)
 
+<h1> VictoriaMetrics </h1>
+
+Для создания VictoriaMetrics, мы сначала заходим в графану с помощью команды: 
+
+`````cd grafana_stack_for_docker`````
+
+Затем запускаем докер командой:
+
+`````sudo docker compose up -d`````
+
+После проделанных комнад, мы переходим по  localhost:3000 и создаём новый dashboard :
+
+![Снимок экрана 2025-04-03 204035](https://github.com/user-attachments/assets/fb9b6159-4a70-4188-9bab-5253cc470242)
+
+Далее создаём VictoriaMetrics:
+
+![Снимок экрана 2025-04-03 204144](https://github.com/user-attachments/assets/d5bb6e80-7cc6-460b-bc5e-71f56f73035c)
+
+После создания, переходим в консоль и вводим комнаду:
+
+`````echo -e "# TYPE light_metric1 gauge\nlight_metric1 0" | curl --data-binary @- http://localhost:8428/api/v1/import/prometheus`````
+
+Потом переходим по ссылкам http://localhost:8428/api/v1/query и http://localhost:8428
+В ссылке http://localhost:8428 мы переходим в vmui, после вводим в строку light_metric1:
+
+![image](https://github.com/user-attachments/assets/4c3255c9-9e6f-4f4c-8164-0a10382787c4)
+
+После возращаемся к нашей VictoriaMetrics, редактируя её, указываем в Default editor - code:
+
+![Снимок экрана 2025-04-03 204207](https://github.com/user-attachments/assets/f3ed1016-ba32-43dc-b946-9ed756e8d4cd)
+
+В заверешеия, мы сохраняем изменения и переходим в DASHBOARDS, выбираем нашу VictoriaMetrics и указываем в ней light_metric1 и получем результат:
+
+![image](https://github.com/user-attachments/assets/03a7f1d9-0f7d-4495-aedb-36298fd6076a)
+
+
+
+
+
